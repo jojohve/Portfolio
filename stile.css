@@ -4,6 +4,18 @@
   padding: 0;
 }
 
+/*SmartPhone*/
+@media only screen and (max-width: 400px) {
+  .logo {
+    width: 50%;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .logo {
+    width: 30%;
+  }
+}
 .hrv {
   border: none;
   border-left: 1px solid hsl(200, 10%, 50%);
