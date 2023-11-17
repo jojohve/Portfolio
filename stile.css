@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 3mm;
+  margin: 20px;
   padding: 0;
 }
 
@@ -16,6 +16,13 @@
     width: 30%;
   }
 }
+.menu {
+  margin: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
 .hrv {
   border: none;
   border-left: 1px solid hsl(200, 10%, 50%);
