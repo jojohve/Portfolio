@@ -7,13 +7,15 @@ h4 {
 }
 
 main {
-    background-color: rgba(167, 156, 156, 0.521);
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(84, 84, 191, 1) 0%, rgba(218, 33, 33, 1) 100%);
 }
 
 main .curriculum {
     box-sizing: border-box;
     margin: auto 360px;
-    background-color: rgb(255, 255, 255);
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0.8575630935968137) 0%, rgba(255,255,255,1) 100%);
 }
 
 .griglia img {
