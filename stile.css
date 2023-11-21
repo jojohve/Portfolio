@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  transition: smooth;
+}
+
 /*SmartPhone*/
 @media only screen and (max-width: 400px) {
   .logo {
