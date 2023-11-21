@@ -14,8 +14,14 @@ main {
 main .curriculum {
     box-sizing: border-box;
     margin: auto 360px;
-    background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0.8575630935968137) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(255, 255, 255, 0.8575630935968137) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.content-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .griglia img {
@@ -26,22 +32,25 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0.8575
 .griglia {
     display: flex;
     flex-wrap: wrap;
+    width: 800px;
+    align-items: center;
     justify-content: center;
-    padding: 1px;
-    margin: 20px 100px;
+    padding: 10px;
+    margin: 20px 150px;
 }
 
-.contenitore {
+.contenitor {
     display: grid;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    width: 800px;
+    margin: 5px 175px;
 }
 
 .accordion {
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 800px;
     border: none;
     text-align: left;
     outline: none;

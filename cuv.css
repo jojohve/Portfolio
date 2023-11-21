@@ -18,6 +18,12 @@ main .curriculum {
   background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgba(255, 255, 255, 0.8575630936) 0%, rgb(255, 255, 255) 100%);
 }
 
+.content-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .griglia img {
   width: 275px;
   height: 225px;
@@ -26,22 +32,25 @@ main .curriculum {
 .griglia {
   display: flex;
   flex-wrap: wrap;
+  width: 800px;
+  align-items: center;
   justify-content: center;
-  padding: 1px;
-  margin: 20px 100px;
+  padding: 10px;
+  margin: 20px 150px;
 }
 
-.contenitore {
+.contenitor {
   display: grid;
-  width: 100%;
   justify-content: center;
   align-items: center;
+  width: 800px;
+  margin: 5px 175px;
 }
 
 .accordion {
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 800px;
   border: none;
   text-align: left;
   outline: none;
