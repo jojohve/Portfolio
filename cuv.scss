@@ -1,9 +1,19 @@
 h1,
 h3,
 h4 {
-    margin: 500px;
+    margin: 200px;
     padding: 5px;
     font-style: bold;
+}
+
+main {
+    background-color: rgba(167, 156, 156, 0.521);
+}
+
+main .curriculum {
+    box-sizing: border-box;
+    margin: auto 360px;
+    background-color: rgb(255, 255, 255);
 }
 
 .griglia img {
@@ -16,7 +26,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1px;
-    margin: 20px 380px;
+    margin: 20px 100px;
 }
 
 .contenitore {
@@ -45,6 +55,5 @@ h4 {
 .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
     overflow: hidden;
 }
