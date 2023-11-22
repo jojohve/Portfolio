@@ -12,9 +12,13 @@
 </head>
 
 <body>
-    <header>
-
-    </header>
+    <div class="header" id="myHeader">
+        <nav class="nav justify-content-end">
+            <a href="#" class="nav-item nav-link active">Lavori</a>
+            <a href="#" class="nav-item nav-link">GitHub</a>
+            <a href="#" class="nav-item nav-link">Contattami</a>
+        </nav>
+    </div>
 
     <nav>
         <ol class="breadcrumb">
@@ -30,11 +34,11 @@
             <h3>Perito Informatico</h3>
 
             <h4>Formazione</h4>
-            <ol>
-                <li>Istituto Tecnico Informatico Paolo Dagomari (Voto: 66/100)</li>2011-2016
-                <li>Università di Bologna - DAMS (Laurea non conseguita)</li>2016-2023
+            <ul>
                 <li>Start2Impact</li>2023-in corso
-            </ol>
+                <li>Università di Bologna - DAMS (Laurea non conseguita)</li>2016-2023
+                <li>Istituto Tecnico Informatico Paolo Dagomari (Voto: 66/100)</li>2011-2016
+            </ul>
 
             <h4>Esperienze Lavorative</h4>
             <div class="contenitor">
@@ -176,7 +180,7 @@
                 <h6>Lingue Straniere</h6>
                 <div class="double-card">
                     <div class="card">
-                        Lingua Inglese
+                        <p>Lingua Inglese</p>
                     </div>
                     <div class="card" id="due">
                         <p class="ide">B1A ★★★★☆</p>
@@ -185,7 +189,7 @@
                 <h6>Programmi</h6>
                 <div class="double-card">
                     <div class="card">
-                        Adobe Photoshop
+                        <p>Adobe Photoshop</p>
                     </div>
                     <div class="card" id="due">
                         <p class="ide">★★★☆☆</p>
@@ -193,7 +197,7 @@
                 </div>
                 <div class="double-card">
                     <div class="card">
-                        Adobe Premiere
+                        <p>Adobe Premiere</p>
                     </div>
                     <div class="card" id="due">
                         <p class="ide">★★★★☆</p>
@@ -201,7 +205,7 @@
                 </div>
                 <div class="double-card">
                     <div class="card">
-                        Sony Vegas
+                        <p>Sony Vegas</p>
                     </div>
                     <div class="card" id="due">
                         <p class="ide">★★★☆☆</p>
@@ -209,7 +213,7 @@
                 </div>
                 <div class="double-card">
                     <div class="card">
-                        GitHub
+                        <p>GitHub</p>
                     </div>
                     <div class="card" id="due">
                         <p class="ide">★★☆☆☆</p>
@@ -217,7 +221,7 @@
                 </div>
                 <div class="double-card">
                     <div class="card">
-                        Blender
+                        <p>Blender</p>
                     </div>
                     <div class="card" id="due">
                         <p class="ide">★☆☆☆☆</p>
@@ -233,36 +237,34 @@
                 <img src="/images/Bootstrap_logo.svg.png" alt="">
             </div>
         </div>
-
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                        panel.style.display = "none";
-                    } else {
-                        panel.style.display = "block";
-                    }
-                });
-            }
-        </script>
     </main>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
 
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
     <footer>
         <hr>
         <p class="text-center">I miei social</p>
         <div class="social">
-            <p><small class="text-muted">LinkedIn</small><a href="https://www.linkedin.com/in/josephlaluna/"><img
-                        class="logo" src="/images/4202085_linkedin_logo_social_social media_icon.png" alt=""></a></p>
+            <p><a href="https://www.linkedin.com/in/josephlaluna/"><img class="logo"
+                        src="/images/4202085_linkedin_logo_social_social media_icon.png" alt=""></a></p>
             <hr class="hrv">
-            <p><small class="text-muted">Facebook</small><a href="https://www.facebook.com/joseph.la.luna.97"><img
-                        class="logo" src="/images/317746_facebook_social media_social_icon.png" alt=""></a></p>
+            <p><a href="https://www.facebook.com/joseph.la.luna.97"><img class="logo"
+                        src="/images/317746_facebook_social media_social_icon.png" alt=""></a></p>
             <hr class="hrv">
-            <p><small class="text-muted">Instagram</small><a href="https://www.instagram.com/jojohve/"><img class="logo"
+            <p><a href="https://www.instagram.com/jojohve/"><img class="logo"
                         src="/images/1298747_instagram_brand_logo_social media_icon.png" alt=""></a></p>
         </div>
     </footer>

@@ -1,13 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 20px;
   padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  transition: smooth;
   letter-spacing: 0.5mm;
   font-size: large;
   line-height: 1.6;
   text-align: justify;
+  color: rgba(238, 163, 25, 0.89);
 }
 
 /*SmartPhone*/
@@ -22,6 +26,17 @@
     width: 30%;
   }
 }
+.header {
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.1921568627);
+}
+
+body .header {
+  position: sticky;
+  top: 0;
+}
+
 .menu {
   margin: 15px;
   display: flex;
@@ -35,6 +50,10 @@
   height: 1cm;
   width: 1px;
   opacity: 0, 1;
+}
+
+hr {
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.4);
 }
 
 .social {
