@@ -1,7 +1,7 @@
 h1,
 h3,
 h4 {
-  margin: 200px;
+  margin: 205px;
   padding: 5px;
   font-style: bold;
 }
@@ -16,6 +16,10 @@ main .curriculum {
   margin: auto 360px;
   background: rgb(34, 193, 195);
   background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgba(255, 255, 255, 0.8575630936) 0%, rgb(255, 255, 255) 100%);
+}
+
+ol {
+  margin: 200px;
 }
 
 .content-slider {
@@ -43,14 +47,15 @@ main .curriculum {
   display: grid;
   justify-content: center;
   align-items: center;
-  width: 800px;
-  margin: 5px 175px;
+  width: 700px;
+  margin: 5px 210px;
+  word-wrap: break-word;
 }
 
 .accordion {
   cursor: pointer;
   padding: 18px;
-  width: 800px;
+  width: 700px;
   border: none;
   text-align: left;
   outline: none;
@@ -67,4 +72,30 @@ main .curriculum {
   padding: 0 18px;
   display: none;
   overflow: hidden;
+}
+
+.card-contenitor {
+  display: grid;
+  padding: 1px;
+  width: 50%;
+  margin: 5px 200px;
+}
+
+.card {
+  width: 300px;
+  border-radius: 15px 50px;
+  margin: 1px;
+  box-shadow: 10px 10px 5px lightblue;
+  padding: 1px;
+}
+
+.ide {
+  display: flex;
+  align-items: end;
+  justify-content: right;
+}
+
+.double-card {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=cuv.css.map */
