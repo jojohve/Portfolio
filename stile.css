@@ -37,6 +37,17 @@ body .header {
   top: 0;
 }
 
+.block {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  width: 10%;
+  align-items: center;
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.1921568627);
+}
+
 .menu {
   margin: 15px;
   display: flex;
