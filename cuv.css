@@ -103,11 +103,11 @@ ul {
 
 .double-card:hover .ide {
   color: rgb(165, 71, 165);
-  transition: 0.1s;
+  transition-duration: 0.1s;
 }
 .double-card:hover .ude {
   filter: brightness(0.25);
-  transition: 0.1s;
+  transition-duration: 0.1s;
 }
 
 .ide {
