@@ -37,17 +37,28 @@ html {
 body .header {
     position: sticky;
     top: 0;
+    transition: 0.2s;
 }
 
-.block {
-    display: flex;
+.nav-item:hover {
+    background-color: rgba(128, 128, 128, 0.116);
+    border-radius: 2%;
+    transition: 0.1s;
 }
 
-.card {
-    display: flex;
-    width: 10%;
-    align-items: center;
-    box-shadow: 0px 4px 10px 4px #00000031;
+.change {
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.change:hover {
+    color: orange;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    transition: 0.3s;
 }
 
 .menu {

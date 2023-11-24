@@ -1,4 +1,5 @@
-h1, h3 {
+h1,
+h3 {
   margin: 200px;
   font-weight: bolder;
   letter-spacing: 0.1mm;
@@ -38,6 +39,10 @@ ul {
 .griglia img {
   width: 275px;
   height: 225px;
+}
+
+.change:hover {
+  filter: brightness(1.1);
 }
 
 .griglia {
@@ -94,6 +99,15 @@ ul {
   margin: 1px;
   box-shadow: 10px 10px 5px lightblue;
   padding: 1px;
+}
+
+.double-card:hover .ide {
+  color: rgb(165, 71, 165);
+  transition: 0.1s;
+}
+.double-card:hover .ude {
+  filter: brightness(0.25);
+  transition: 0.1s;
 }
 
 .ide {
