@@ -38,13 +38,19 @@ body .header {
   transition-duration: 0.2s;
 }
 
+main {
+  display: flex;
+}
+
 aside {
-  justify-content: start;
+  display: block;
+  margin: 250px 100px;
+  justify-content: end;
 }
 
 .nav-item:hover {
   background-color: rgba(128, 128, 128, 0.116);
-  border-radius: 3%;
+  border-radius: 5%;
   transition-duration: 0.1s;
 }
 
@@ -67,6 +73,11 @@ aside {
   display: flex;
   align-items: flex-end;
   justify-content: end;
+}
+
+.bio {
+  font-style: italic;
+  letter-spacing: 0.3mm;
 }
 
 .hrv {
