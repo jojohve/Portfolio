@@ -4,7 +4,7 @@ html {
 
 * {
   box-sizing: border-box;
-  margin: 20px;
+  margin: 15px;
   padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   letter-spacing: 0.5mm;
@@ -15,15 +15,75 @@ html {
 }
 
 /*SmartPhone*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 415px) {
+  * {
+    margin: 1px;
+    padding: 10;
+  }
+  aside {
+    margin: 10px !important;
+  }
+  .photo {
+    height: 400px;
+  }
+  main {
+    display: block !important;
+  }
+  article {
+    display: block !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .button {
+    background-color: rgba(255, 166, 0, 0.568);
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 25px 25px;
+    overflow: auto;
+  }
   .logo {
-    width: 50%;
+    display: flex !important;
+    justify-content: center !important;
+    width: 75%;
+    margin: 10px;
+  }
+  .titolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 /*Tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 416px) and (max-width: 960px) {
+  * {
+    margin: 5px;
+    padding: 10;
+  }
+  .photo {
+    height: 400px;
+  }
   .logo {
-    width: 30%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 75%;
+    margin: 10px;
+  }
+  article {
+    display: block !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .button {
+    background-color: rgba(255, 166, 0, 0.568);
+    display: flex !important;
+    justify-content: center !important;
+    margin: 25px 25px;
+    overflow: auto;
+  }
+  .titolo {
+    padding: 0px 75px;
   }
 }
 .header {
@@ -48,6 +108,22 @@ aside {
   justify-content: end;
 }
 
+.button {
+  display: flex;
+  overflow: auto;
+  border: rgba(0, 0, 0, 0.541) solid 1mm;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3cm;
+  box-shadow: -10px 0px 13px -7px rgba(0, 0, 0, 0.5137254902), 10px 0px 13px -7px rgba(0, 0, 0, 0.4666666667), 0px 7px 9px 4px rgba(92, 64, 207, 0.18);
+}
+@media only screen and (min-width: 961px) {
+  .button {
+    width: 25%;
+  }
+}
+
 .nav-item:hover {
   background-color: rgba(128, 128, 128, 0.116);
   border-radius: 5%;
@@ -55,7 +131,22 @@ aside {
 }
 
 .change {
-  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  text-decoration: none;
+}
+@media only screen and (min-width: 961px) {
+  .change {
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+
+.card:hover {
+  transition-duration: 0.5s;
+  filter: brightness(1.1);
+}
+
+.button:hover {
+  transition-duration: 0.5s;
+  filter: brightness(1.1);
 }
 
 .change:hover {
