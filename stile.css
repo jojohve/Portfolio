@@ -15,7 +15,7 @@ html {
 }
 
 /*SmartPhone*/
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 435px) {
   * {
     margin: 1px;
     padding: 10;
@@ -24,7 +24,9 @@ html {
     margin: 10px !important;
   }
   .photo {
-    height: 400px;
+    display: flex !important;
+    align-items: right !important;
+    height: 350px;
   }
   main {
     display: block !important;
@@ -55,7 +57,7 @@ html {
   }
 }
 /*Tablet*/
-@media only screen and (min-width: 416px) and (max-width: 960px) {
+@media only screen and (min-width: 436px) and (max-width: 960px) {
   * {
     margin: 5px;
     padding: 10;
@@ -87,15 +89,15 @@ html {
   }
 }
 .header {
-  z-index: 100;
+  z-index: 9999 !important;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.1921568627);
 }
 
 body .header {
-  position: sticky;
-  top: 0;
-  transition-duration: 0.2s;
+  position: sticky !important;
+  top: 0px !important;
+  transition-duration: 0.2s !important;
 }
 
 main {
@@ -147,6 +149,7 @@ aside {
 .button:hover {
   transition-duration: 0.5s;
   filter: brightness(1.1);
+  background-color: rgba(128, 128, 128, 0.068);
 }
 
 .change:hover {

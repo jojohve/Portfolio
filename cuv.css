@@ -1,5 +1,59 @@
 /*SmartPhone*/
+@media only screen and (max-width: 435px) {
+  h1,
+  h3,
+  h4,
+  ul,
+  .griglia img,
+  .griglia,
+  .contenitor,
+  .accordion,
+  .panel,
+  .card-contenitor,
+  .card {
+    margin: 1px 10px !important;
+  }
+  .contenitor,
+  .accordion,
+  .padding {
+    align-items: flex-start !important;
+    justify-content: left !important;
+    margin: 0px 0px !important;
+    width: 370px !important;
+  }
+  .card-contenitor {
+    display: block !important;
+    width: 355px !important;
+  }
+  .griglia {
+    display: grid !important;
+    padding: 0px !important;
+    max-width: 100%;
+  }
+  .panel {
+    padding: 0px 0px !important;
+    max-width: 100%;
+  }
+}
 /*Tablet*/
+@media only screen and (min-width: 436px) and (max-width: 960px) {
+  h1,
+  h3,
+  h4,
+  ul,
+  .griglia img,
+  .griglia,
+  .contenitor,
+  .accordion,
+  .panel,
+  .card-contenitor,
+  .card {
+    margin: 0px 25px !important;
+  }
+  body {
+    width: 810px;
+  }
+}
 h1,
 h3 {
   margin: 200px;
@@ -23,9 +77,13 @@ main {
 main .curriculum {
   box-sizing: border-box;
   box-shadow: 0px -5px 15px 5px rgba(0, 0, 0, 0.2);
-  margin: auto 360px;
   background: rgb(34, 193, 195);
   background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgba(255, 255, 255, 0.8575630936) 0%, rgb(255, 255, 255) 100%);
+}
+@media only screen and (min-width: 961px) {
+  main .curriculum {
+    margin: auto 360px;
+  }
 }
 
 ul {
@@ -59,11 +117,15 @@ ul {
 
 .contenitor {
   display: grid;
-  justify-content: center;
-  align-items: center;
-  width: 700px;
-  margin: 5px 210px;
-  word-wrap: break-word;
+}
+@media only screen and (min-width: 961px) {
+  .contenitor {
+    width: 700px;
+    margin: 5px 210px;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+  }
 }
 
 .accordion {

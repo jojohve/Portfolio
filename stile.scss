@@ -15,7 +15,7 @@ html {
 }
 
 /*SmartPhone*/
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 435px) {
     * {
         margin: 1px;
         padding: 10;
@@ -26,7 +26,9 @@ html {
     }
 
     .photo {
-        height: 400px;
+        display: flex !important;
+        align-items: right !important;
+        height: 350px;
     }
 
     main {
@@ -63,7 +65,7 @@ html {
 }
 
 /*Tablet*/
-@media only screen and (min-width: 416px) and (max-width: 960px) {
+@media only screen and (min-width: 436px) and (max-width: 960px) {
     * {
         margin: 5px;
         padding: 10;
@@ -101,15 +103,15 @@ html {
 }
 
 .header {
-    z-index: 100;
+    z-index: 9999 !important;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 5px 15px 5px #00000031;
 }
 
 body .header {
-    position: sticky;
-    top: 0;
-    transition-duration: 0.2s;
+    position: sticky !important;
+    top: 0px !important;
+    transition-duration: 0.2s !important;
 }
 
 main {
@@ -146,6 +148,7 @@ aside {
 
 .change {
     text-decoration: none;
+
     @media only screen and (min-width: 961px) {
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
     }
@@ -159,6 +162,7 @@ aside {
 .button:hover {
     transition-duration: 0.5s;
     filter: brightness(1.10);
+    background-color: rgba(128, 128, 128, 0.068);
 }
 
 .change:hover {
