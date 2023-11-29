@@ -55,6 +55,9 @@ html {
     justify-content: center;
     align-items: center;
   }
+  .icon {
+    visibility: collapse;
+  }
 }
 /*Tablet*/
 @media only screen and (min-width: 436px) and (max-width: 960px) {
@@ -87,6 +90,10 @@ html {
   .titolo {
     padding: 0px 75px;
   }
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 .header {
   z-index: 9999 !important;
@@ -102,6 +109,7 @@ body .header {
 
 main {
   display: flex;
+  overflow: auto;
 }
 
 aside {
