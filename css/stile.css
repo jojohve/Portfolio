@@ -11,7 +11,8 @@ html {
   font-size: large;
   line-height: 1.6;
   text-align: justify;
-  color: rgba(238, 163, 25, 0.89);
+  --colore: rgba(238, 163, 25, 0.89);
+  color: var(--colore);
 }
 
 /*SmartPhone*/
