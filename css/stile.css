@@ -184,7 +184,7 @@ aside {
 }
 
 form {
-  display: flex;
+  display: grid;
 }
 
 .hrv {
