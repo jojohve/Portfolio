@@ -183,6 +183,10 @@ aside {
   letter-spacing: 0.3mm;
 }
 
+form {
+  display: flex;
+}
+
 .hrv {
   border: none;
   border-left: 1px solid hsl(200, 10%, 50%);
