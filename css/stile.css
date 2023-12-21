@@ -183,11 +183,6 @@ aside {
   letter-spacing: 0.3mm;
 }
 
-form {
-  display: grid;
-  margin: 600px;
-}
-
 .hrv {
   border: none;
   border-left: 1px solid hsl(200, 10%, 50%);
@@ -212,6 +207,11 @@ hr {
   box-shadow: -10px -10px 0px 1px rgba(255, 165, 0, 0.68);
   -webkit-box-shadow: -10px -10px 0px 1px rgba(255, 165, 0, 0.68);
   -moz-box-shadow: -10px -10px 0px 1px rgba(255, 165, 0, 0.68);
+}
+
+.form {
+  display: grid;
+  margin: 50px 600px;
 }
 
 .photo {
