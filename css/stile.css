@@ -211,7 +211,7 @@ hr {
 
 form {
   display: grid;
-  margin: 0px 600px;
+  width: 600px;
 }
 
 .photo {
