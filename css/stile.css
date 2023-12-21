@@ -209,7 +209,7 @@ hr {
   -moz-box-shadow: -10px -10px 0px 1px rgba(255, 165, 0, 0.68);
 }
 
-.form {
+form {
   display: grid;
   margin: 50px 600px;
 }
